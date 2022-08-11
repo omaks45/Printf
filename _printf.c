@@ -44,6 +44,7 @@ if (printed == -1)
 return (-1);
 printed_chars += printed;
 }
+}
 print_buffer(buffer, &buff_ind);
 va_end(list);
 return (printed_chars);
